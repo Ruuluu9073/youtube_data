@@ -5,7 +5,7 @@
 # driver = webdriver.Chrome(options=options)
 # driver.get("https://www.youtube.com/user/twappledaily/videos")
 
-
+# 前面可能要先載一些東西
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
