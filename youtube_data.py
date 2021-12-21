@@ -44,10 +44,10 @@ for a in soup.find_all('a', href=True):
 			links.append(url)
 
 # 拿取youtube 影片資訊
-# 每個人api 不一樣
+# 每個人api 不一樣 我剛上傳沒注意到就被google 警告了
 base_url = "https://www.googleapis.com/youtube/v3/"
 part='snippet,contentDetails,statistics,status'
-api_key = 'AIzaSyBR0pEIDrKK15ibp022ekBrNRM9opSqH9I' 
+api_key = '' 
 
 d = []
 for i in range(len(links)):
